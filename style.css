@@ -1,0 +1,112 @@
+*{
+    /* outline: 1px solid pink; */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 48px;
+    font-size: .9rem;
+    padding: 0 0.75rem;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 47px;
+    background-color: #f4f4f4;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: .9rem;
+    padding: 0 0.75rem;
+}
+
+.footlink{
+    margin: 0 0.25rem;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+}
+
+span{
+    color:grey;
+    margin: 0.75rem;
+}
+
+.navlink{
+    text-decoration: none;
+    color: black;
+    margin: 0 0.25rem;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+li{
+    display: inline-block;
+}
+
+.main{
+    text-align: center;
+    margin-top: 10rem;
+}
+
+.mid{
+    text-align: center;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchbar{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    border: 0.5px solid #ddd;
+    border-radius: 25px;
+    padding: 0 10px;
+    
+}
+
+.searchinput:focus{
+    outline: none;
+}
+
+.searchinput{
+    width: 100%;
+    border: none;
+    height: 35px;
+}
+
+.buttons{
+    margin-top: 20px;
+    display: flex;
+}
+
+.button{
+    margin: 0 10px;
+    background-color: #f8f9fa;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    height: 40px;
+    cursor: pointer;
+    width: 8rem;
+}
+
+.button:hover{
+    border: 1px solid #ddd;
+}
