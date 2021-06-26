@@ -33,6 +33,8 @@ body{
 
 .footlink{
     margin: 0 0.25rem;
+    color: #707579;
+    text-decoration: none;
 }
 
 .navbar-right{
@@ -109,4 +111,5 @@ li{
 
 .button:hover{
     border: 1px solid #ddd;
+    cursor: pointer;
 }
